@@ -1,0 +1,101 @@
+#div1{
+    border: solid 2px black;
+    margin: 20px;
+    position: relative;
+}
+#s1{
+    height: 300px;
+    width: 300px;
+    background-color: darkblue;
+}
+#s2{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(139, 0, 0);
+    position: sticky;
+    left: 5px;
+    top: 5px;
+}
+    
+#s3{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(0, 139, 35);
+}
+
+
+p{
+    /*color: royalblue;*/
+    font-size: 20px;
+    /*font-family: sans-serif;*/
+}
+
+
+/*h4{
+    font-size: 50px;
+    font-family: sans-serif;
+}*/
+
+p,h4{
+    font-family: sans-serif;
+}
+
+/*h4{text-transform: uppercase;}*/
+
+.uppercase{
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.cursive{
+    font-family: cursive;
+    font-family: sans-serif;
+}
+
+li h4{
+    text-transform: uppercase;
+    font-family: cursive;
+}
+#site-desc p,a{
+    color: rgb(155, 11, 40);
+}
+
+#blog-title:hover{
+    color: darkgoldenrod; 
+}
+
+.widget {
+    border-top: 4px solid black;
+}
+.widget input{
+    display: block;
+    margin: 10px;
+    padding: 5px;
+    background-color: #f7f7f7;
+    color: cornflowerblue;
+    font-size: 1.4rem;
+}
+
+button[type="submit"] {
+    font-size: 1.3rem;
+    background-color: rgb(225, 65, 92);
+    color: seashell;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.widget-title{
+    font-size: 1.5rem;
+}
+
+main{
+    width: 70%;
+    display: inline-block;
+}
+
+aside{
+    width: 22%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 4%;
+    
+}

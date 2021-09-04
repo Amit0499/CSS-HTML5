@@ -1,0 +1,64 @@
+#color_change{
+    height: 400px;
+    width: 400px;
+    /*hsla(180deg, 58%, 38%, 45%)*/
+    background-color:rgba(82, 41, 153, 0.575);
+    border: 10px solid rgb(89, 0, 255);
+    border-radius: 20%;
+    margin-bottom: 20px;
+}
+
+  #div1{
+    height: 50%;
+    width: 50%;
+    background-color: cornflowerblue;
+    border-width: 10px;
+   border-style: dotted;
+   border-color: rgba(255, 238, 0, 0.349);
+   border-radius: 40%;
+  }
+  
+  
+  #div4{
+    height: 400px;
+    width: 400px;
+    /*hsla(180deg, 58%, 38%, 45%)*/
+    background-color:rgba(192, 19, 57, 0.253);
+    border: 10px solid rgb(255, 208, 0);
+    border-radius: 20%;
+}
+
+
+  }
+
+ /*
+#sample {
+    border-left: 2px solid red;
+
+  }
+
+ #div2{
+    font-size: 30px;
+    color: rosybrown;
+    font-weight: normal;
+    font-style: italic;
+    font-variant: normal;
+    text-align: justify;
+    line-height: 50px;
+    word-spacing: inherit;
+    text-transform: capitalize;
+    text-decoration-style: dotted;
+
+  }
+ 
+ #div3{
+    height: 800px;
+    width: 800px;
+    background-image: url(Static/logo_switchtocode.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    backface-visibility: unset;
+    background-size: auto;
+    background-attachment: fixed;
+  }*/
+    

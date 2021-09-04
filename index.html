@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Validation form using JavaScript</title>
+    <link rel="stylesheet" href="index.css" type="text/css" />
+    <script src="index.js"></script>
+  </head>
+  <body onload="document.registration.userid.focus();">
+    <h1>Validation Form</h1>
+    <form name="registration" onSubmit="return formValidation();">
+      <ul>
+        <li><label for="userid" required="">User id:</label></li>
+        <li><input type="text" id="userid" size="12" /></li>
+        <li><label for="passid">Password:</label></li>
+        <li><input type="password" id="passid" size="12" /></li>
+        <li><label for="username">Name:</label></li>
+        <li><input type="text" id="username" size="50" /></li>
+        <li><label for="address">Address:</label></li>
+        <li><input type="text" id="address" size="50" /></li>
+        <li><label for="country">Country:</label></li>
+        <li>
+          <select name="country">
+            <option selected="" value="Default">select country</option>
+            <option value="F">Armenia</option>
+            <option value="A">Argentina</option>
+            <option value="Z">India </option>
+            <option value="S">Andorra</option>
+            <option value="D">Nauru</option>
+            <option value="T">Australia</option>
+            <option value="nep">Nepal</option>
+            <option value="ALA">Ecuador</option>
+            <option value="DEZ">Senegal</option>
+            <option value="ABS">Eritrea</option>
+            <option value="AQD">USA</option>
+            <option value="AUF">Guyana</option>
+            <option value="ANL">Canada</option>
+            <option value="DIZ">India</option>
+            <option value="AMS">Russia</option>
+            <option value="AYD">Venezuela</option>
+            
+          </select>
+        </li>
+        <li><label for="zip">ZIP Code:</label></li>
+        <li><input type="text" id="zip" /></li>
+        <li><label for="creditCard">Credit Card:</label></li>
+        <li><input type="text" id="creditCard" size="50" /></li>
+        <li><label for="email">Email:</label></li>
+        <li><input type="text" id="email" size="50" /></li>
+        <li><label id="gender">Sex:</label></li>
+        <li>
+          <input type="radio" name="gender" value="Male" /><span>Male</span>
+          <input type="radio" name="gender" value="Female" /><span>Female</span>
+          <input type="radio" name="gender" value="Others" /><span>Others</span>
+        </li>
+        <li><label>Language:</label></li>
+        <li>
+          <input type="checkbox" name="en" value="en" checked /><span
+            >English</span
+          >
+          <input type="checkbox" name="nonen" value="noen" /><span>Hindi</span>
+        </li>
+        <li><label for="desc">About:</label></li>
+        <li><textarea name="desc" id="desc"></textarea></li>
+        <li><input type="submit" name="submit" value="Submit" /></li>
+      </ul>
+    </form>
+  </body>
+</html>

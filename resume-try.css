@@ -1,0 +1,21 @@
+body{
+    margin: 0px;
+}
+#body-header{
+    height: 65vh;
+    background-image: url(static/macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+
+}
+.horozontal-list{
+    text-align: center;
+    display: inline-block;
+
+
+}
+.text-center{
+    text-align: center;
+}
